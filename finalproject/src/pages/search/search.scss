@@ -1,0 +1,10 @@
+.search {
+    span, strong {
+        margin-left: 5px;
+    }
+    &__head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

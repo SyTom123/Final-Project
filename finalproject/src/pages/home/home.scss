@@ -1,0 +1,17 @@
+.home {
+    h1 {
+        margin-bottom: 20px;
+        font-size: 32px;
+        color: #2a2a2a;
+    } 
+    &__tag {
+        cursor: pointer;
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+    h2 {
+        margin: 20px 0;
+        color: #2a2a2a;
+    }
+    
+}

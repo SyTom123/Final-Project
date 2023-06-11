@@ -1,0 +1,12 @@
+.applyForm {
+    &__head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__body {
+        span, strong {
+            margin-left: 5px;
+        }
+    }
+}

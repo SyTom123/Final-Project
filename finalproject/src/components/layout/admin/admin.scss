@@ -1,0 +1,57 @@
+.layoutAdmin {
+    &__header {
+        height: 70px;
+        background: #fff;
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid #ddd;
+        position: sticky;
+        left: 0;
+        top: 0;
+        z-index: 999;
+    }
+    &__logo {
+        font-size: 24px;
+        font-weight: 600;
+        color: #3f87f5;
+        width: 230px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-right: 1px solid #ddd;
+        transition: all 0.2s;
+
+        &--fold {
+            width: 80px;
+            font-size: 20px;
+        }
+    }
+    &__icon {
+        font-size: 20px;
+        cursor: pointer;
+    }
+    &__nav {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+    &__sider {
+        border-right: 1px solid #ddd;
+        height:calc(100vh - 70px);
+        position: sticky !important;
+        top: 70px;
+        overflow: scroll;
+        overflow-x: hidden;
+        &::-webkit-scrollbar {
+            display: none;
+          }
+       
+    }
+    &__content {
+        padding: 25px;
+    }
+
+}

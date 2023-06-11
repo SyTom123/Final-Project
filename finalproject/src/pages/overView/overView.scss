@@ -1,0 +1,9 @@
+.overView {
+    height:calc(100vh - 100px) ;
+    &__container {
+        p{
+            margin: 2px 0;
+            padding: 0
+        }
+    }
+}

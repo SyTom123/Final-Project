@@ -1,0 +1,17 @@
+.companyDetail {
+    &__head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between
+    }
+    &__info {
+        h2 {
+            margin-top: 0;
+        }
+    }
+    &__jobs {
+        strong, span {
+            margin-left: 5px;
+        }
+    }
+}
